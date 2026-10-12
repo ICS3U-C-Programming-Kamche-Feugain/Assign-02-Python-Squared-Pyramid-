@@ -20,12 +20,12 @@ def main():
     height = int(input("Enter the height of the squared pyramid in mm: "))
 
     # Calculate the surface area of the squared pyramid
-    surface_area = (side_length**2) + (
-        2 * side_length * math.sqrt(height**2 + (side_length / 2) ** 2)
+    surface_area = (side_length ** 2) + (
+        2 * side_length * math.sqrt(height ** 2 + (side_length / 2) ** 2)
     )
 
     # Calculate the volume of the squared pyramid
-    volume = constants.VOLUME_CONSTANT * (side_length**2) * height
+    volume = constants.VOLUME_CONSTANT * (side_length ** 2) * height
 
     # Display the surface area and volume of the squared pyramid
     print(
