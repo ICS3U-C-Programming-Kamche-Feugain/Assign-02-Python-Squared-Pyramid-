@@ -19,10 +19,6 @@ def main():
     side_length = int(input("Enter the side length of the squared pyramid in mm: "))
     height = int(input("Enter the height of the squared pyramid in mm: "))
 
-    # Convert the side length and height to an integer
-    side_length = int(side_length)
-    height = int(height)
-
     # Calculate the surface area of the squared pyramid
     surface_area = (side_length**2) + (
         2 * side_length * math.sqrt(height**2 + (side_length / 2) ** 2)
