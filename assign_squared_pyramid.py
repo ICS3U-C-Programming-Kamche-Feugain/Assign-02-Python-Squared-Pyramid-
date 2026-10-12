@@ -4,7 +4,7 @@
 # This program ask the user for the side length
 # and the height of a squared pyramid in mm.
 # It then calculates and displays the volume of the squared pyramid
-import math
+import constants
 
 
 def main():
@@ -27,7 +27,7 @@ def main():
     )
 
     # Calculate the volume of the squared pyramid
-    volume = (1 / 3) * (side_length**2) * height
+    volume = constants.VOLUME_CONSTANT * (side_length**2) * height
 
     # Display the surface area and volume of the squared pyramid
     print(f"The surface area of the squared pyramid is {surface_area:.2f} mm².")
